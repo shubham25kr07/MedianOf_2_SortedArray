@@ -96,7 +96,7 @@ int main()
     vector<int>v2;
     int n,m,x;
     cin>>n>>m;
-    cout<< "INPUT THE ARRAY ELEMENT IN SORTED WAY"<<"n";
+    cout<< "INPUT THE ARRAY ELEMENT IN SORTED WAY"<<"\n";
     
     for(int i=0;i<n;i++)
     {
