@@ -14,7 +14,7 @@ double medianOfTwoSortedArray(vector<int>& v1,vector<int>& v2)
 {
     if(v1.size()>v2.size())
     {
-        return medianOfTwoArray(v2,v1);
+        return medianOfTwoSortedArray(v2,v1);
     }
     int n=v1.size();
     int m=v2.size();
